@@ -1,0 +1,21 @@
+{
+  "name": "tradovate-sdk-beta",
+  "version": "1.0.0",
+  "exports": "./src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ws": "^8.16.0"
+  },
+  "scripts": {
+    "test": "node src/tests/allTests.js"
+  },
+  "description": "Tradovate SDK to help accelerate API development. Beta Version.",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "author": "Alexander R Lennert"
+}
